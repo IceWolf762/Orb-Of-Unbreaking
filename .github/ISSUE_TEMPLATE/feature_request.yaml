@@ -1,0 +1,13 @@
+name: "Feature Request"
+description: "Request a feature to be added"
+title: "[FEATURE REQUEST]: "
+labels: "enhancement"
+
+body:
+  - type: textarea
+    attributes:
+      label: Feature Description
+      description: "Explain in detail what you would like to be added."
+      placeholder: "Enter Details..."
+    validations:
+      required: true
