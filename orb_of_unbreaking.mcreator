@@ -1,0 +1,106 @@
+{
+  "mod_elements": [
+    {
+      "name": "OrbToItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orb_to_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/io/github/icewolf/orbofunbreaking/procedures/OrbToItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "OrbOfUnbreaking",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orb_of_unbreaking",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/icewolf/orbofunbreaking/item/OrbOfUnbreakingItem.java",
+          "src/main/resources/assets/orb_of_unbreaking/models/item/orb_of_unbreaking.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftOrb",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_orb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/orb_of_unbreaking/recipes/craft_orb.json",
+          "src/main/resources/data/orb_of_unbreaking/advancements/recipes/craft_orb.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.orb_of_unbreaking.orb_of_unbreaking": "Orb Of Unbreaking",
+      "item.orb_of_unbreaking.orb_of_unbreaking.description_0": "Use on Netherite Tools and Weapons that are held in off-hand."
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/io/github/icewolf/orbofunbreaking/OrbOfUnbreakingMod.java",
+      "src/main/java/io/github/icewolf/orbofunbreaking/init/OrbOfUnbreakingModTabs.java",
+      "src/main/java/io/github/icewolf/orbofunbreaking/init/OrbOfUnbreakingModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "orb_of_unbreaking",
+    "modName": "Orb of Unbreaking",
+    "version": "1.0.0",
+    "description": "Craftable item that makes Netherite-tier tools/gear Unbreakable.",
+    "author": "IceWolf762",
+    "websiteURL": "https://github.io/icewolf762",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "pack",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created with MCreator",
+    "modElementsPackage": "io.github.icewolf.orbofunbreaking"
+  },
+  "mcreatorVersion": 202500228610
+}

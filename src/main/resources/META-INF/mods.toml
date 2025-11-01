@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="orb_of_unbreaking"
+version="1.0.0"
+displayName="Orb of Unbreaking"
+displayURL="https://github.io/icewolf762"
+logoFile="logo.png"
+credits="Created with MCreator"
+authors="IceWolf762"
+description="Craftable item that makes Netherite-tier tools/gear Unbreakable."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.orb_of_unbreaking]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
