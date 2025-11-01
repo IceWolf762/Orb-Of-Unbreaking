@@ -23,7 +23,7 @@ body:
   - type: dropdown
     id: loader
     attributes:
-      label: Mod Loader:
+      label: Mod Loader
       options:
         - Forge
     validations:
@@ -31,7 +31,7 @@ body:
   - type: dropdown
     id: loader
     attributes:
-      label: Mod Version:
+      label: Mod Version
       options:
         - 1.0.0
     validations:
