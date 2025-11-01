@@ -1,19 +1,19 @@
-name: Bug Report
-description: Report bugs here.
-title: [Bug Report]
-labels: bug
+name: "Bug Report"
+description: "Report bugs here."
+title: "[Bug Report]"
+labels: "bug"
 
 body:
   - type: textarea
     attributes:
       label: Issue Description
-      description: Explain in detail about the issue.
-      placeholder: What happened...
+      description: "Explain in detail about the issue."
+      placeholder: "What happened..."
     validations: true
   - type: textarea
     attributes:
       label: Steps to reproduce the bug
-      description: Provide a step-by-step guide on how the bug occured (if necessary).
+      description: "Provide a step-by-step guide on how the bug occured (if necessary)."
       placeholder: |
         Step 1...
         Steo 2,,,
@@ -21,7 +21,6 @@ body:
       validations:
         required: false
   - type: dropdown
-    id: loader
     attributes:
       label: Mod Loader
       options:
@@ -29,7 +28,6 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: loader
     attributes:
       label: Mod Version
       options:
