@@ -9,14 +9,15 @@ body:
       label: Issue Description
       description: "Explain in detail about the issue."
       placeholder: "What happened..."
-    validations: true
+    validations:
+      required: true
   - type: textarea
     attributes:
       label: Steps to reproduce the bug
       description: "Provide a step-by-step guide on how the bug occured (if necessary)."
       placeholder: |
         Step 1...
-        Steo 2,,,
+        Steo 2...
         etc...
       validations:
         required: false
