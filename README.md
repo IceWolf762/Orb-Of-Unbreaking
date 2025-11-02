@@ -1,5 +1,9 @@
 *NOTICE: This repo is primarily for issues & feature requests. The sources available are also primarily for back-up purposes. All releases will be available on Modrinth.*
 
+#### DOWNLOAD: https://modrinth.com/mod/orb-of-unbreaking
+
+<hr>
+
 # Orb of Unbreaking
 
 This mod adds a new item, the Orb of Unbreaking!
